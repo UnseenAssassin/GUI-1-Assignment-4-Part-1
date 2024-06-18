@@ -1,4 +1,4 @@
-# GUI-1-Assignment-4-Part 2
+# GUI-1-Assignment-4-Part 1
 
 # Project Description
 The purpose of the project is to be a continuation of Assignment 3.  This project utilizes JQuery to error bguard the code and will give users error messages and solutions on how to fix the errors.  The errors have improved comapred to assignment 3 and the project will let the user know where to fix the issues.  Otherwise, the functionality is the same and the multiplication tables are made using the text boxes without going under -50 and above 50.
