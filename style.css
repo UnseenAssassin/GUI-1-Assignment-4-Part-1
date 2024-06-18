@@ -1,0 +1,81 @@
+/* 
+File:style.css
+Gui Assignment: Updating The Multiplication Table Part 1
+Description: This is the css file that is responsible for the color and font of the website.  The font is set for the website here and the color
+of thhe buttons and the table itself. 
+
+Zuriel Pagan, UMass Lowell Computer Science, zuriel_pagan@student.uml.edu
+Copywright (c) 2024 by Zuriel.  All rights reserved.  May be freely copied or excerpted for educational purposes with credit to the author.
+
+*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+#tableContainer {
+    overflow: auto;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #fbb7c2;
+    position: sticky;
+    top: 0;
+}
+
+td:nth-child(even) {
+    background-color: #e7d2e1;
+}
+
+td:nth-child(odd) {
+    background-color: #f5dddd;
+}

@@ -1,0 +1,46 @@
+<!--
+File: index.html
+Gui Assignment: Updating The Multiplication Table Part 1
+Description: This is the html file that is responsible for linking the css and js changes to the website.  The HTML file also has the JQuery error
+guarding that will help users and prevent errors from occuring. 
+
+Zuriel Pagan, UMass Lowell Computer Science, zuriel_pagan@student.uml.edu
+Copywright (c) 2024 by Zuriel.  All rights reserved.  May be freely copied or excerpted for educational purposes with credit to the author.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplication Table Generator</h1>
+        <form id="tableForm">
+            <label for="startH">Start Horizontal:</label>
+            <input type="text" id="startH" name="startH" required>
+            
+            <label for="endH">End Horizontal:</label>
+            <input type="text" id="endH" name="endH" required>
+            
+            <label for="startV">Start Vertical:</label>
+            <input type="text" id="startV" name="startV" required>
+            
+            <label for="endV">End Vertical:</label>
+            <input type="text" id="endV" name="endV" required>
+            
+            <button type="submit">Generate Table</button>
+        </form>
+        <div id="error"></div>
+        <div id="tableContainer">
+            <table id="multiplicationTable"></table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
